@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  artist: Bob Marley
+  title: Legend
+  description: Legend by Bob Marley and the Wailers
+  price: 9.00
+  quantity: 1
+  category_id: 1
+  photo_id: 1
+  discount_id: 1
+
+two:
+  artist: Bob Marley
+  title: Kaya
+  description: Kaya by Bob Marley and the Wailers
+  price: 12.99
+  quantity: 1
+  category_id: 1
+  photo_id: 1
+  discount_id: 1

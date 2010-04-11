@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  rate: 0.05
+
+two:
+  rate: 0.50
+
+three:
+  rate: 0.95
+
+four:
+  rate: 1.00

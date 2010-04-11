@@ -1,0 +1,22 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: Accessories
+
+two:
+  name: Clothing
+
+three:
+  name: CD
+
+four:
+  name: Cassette
+
+five:
+  name: Vinyl
+
+six:
+  name: DVD
+
+seven:
+  name: VHS
