@@ -7,6 +7,7 @@ class CreateProducts < ActiveRecord::Migration
       t.decimal :price
       t.integer :quantity
       t.integer :category_id
+      t.integer :genre_id
       t.integer :photo_id
       t.integer :discount_id
 

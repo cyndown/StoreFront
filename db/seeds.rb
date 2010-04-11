@@ -19,3 +19,12 @@ Category.create(:name => 'Cassette')
 Category.create(:name => 'Vinyl')
 Category.create(:name => 'DVD')
 Category.create(:name => 'VHS')
+
+# Seed genre table
+Genre.create(:name => 'Reggae')
+Genre.create(:name => 'Soca')
+Genre.create(:name => 'Calypso')
+
+# Seed product table
+Product.create(:artist => 'Bob Marley', :title => 'Legend', :description => 'Legend', :price => 10.99, :quantity => 2, :category_id => 3, :genre_id => 1, :photo_id => 1, :discount_id => 3)
+Product.create(:artist => 'Bob Marley', :title => 'Kaya', :description => 'Kaya', :price => 13.99, :quantity => 3, :category_id => 3, :genre_id => 1, :photo_id => 1, :discount_id => 5)

@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(:version => 20100411044915) do
     t.decimal  "price"
     t.integer  "quantity"
     t.integer  "category_id"
+    t.integer  "genre_id"
     t.integer  "photo_id"
     t.integer  "discount_id"
     t.datetime "created_at"

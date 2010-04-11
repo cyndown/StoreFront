@@ -2,6 +2,11 @@ Storefront::Application.routes.draw do |map|
   
   root :to => "store#index"
   
+  # named routes
+  # -------------
+  # genre; invoke with genre_url(:name => genre.name)
+  match "/:name" => "store#view", :as => :genre
+  
   get "store/index"
 
   # The priority is based upon order of creation:
